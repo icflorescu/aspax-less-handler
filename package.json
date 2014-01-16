@@ -1,23 +1,35 @@
 {
   "name": "aspax-less-handler",
-  "version": "0.6.6",
+  "version": "0.6.7",
   "description": "Plugin enabling ASPAX to handle LESS files.",
-  "repository": "git://github.com/icflorescu/aspax-less-handler",
-  "homepage": "http://aspax.github.io",
   "keywords": [
     "aspax",
     "less",
     "css",
     "compilation"
   ],
+  "dependencies": {
+    "iced-coffee-script": "~1.6.3-j",
+    "less": "~1.6.1"
+  },
+  "engines": {
+    "node": ">=0.8.16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/icflorescu/aspax-less-handler"
+    },
+  "bugs": {
+    "url": "https://github.com/icflorescu/aspax-less-handler/issues"
+  },
   "author": {
     "name": "Ionut-Cristian Florescu",
     "email": "ionut.florescu@gmail.com",
     "url": "https://coderwall.com/icflorescu"
   },
-  "license": "MIT",
-  "dependencies": {
-    "iced-coffee-script": "~1.6.3-j",
-    "less": "~1.6.1"
-  }
+  "contributors": [{
+    "name": "Ionut-Cristian Florescu",
+    "email": "ionut.florescu@gmail.com"
+  }],
+  "license": "MIT"
 }
