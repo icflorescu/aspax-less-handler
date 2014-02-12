@@ -1,6 +1,6 @@
 {
   "name": "aspax-less-handler",
-  "version": "0.7.6",
+  "version": "0.7.7",
   "description": "Plugin enabling ASPAX to handle LESS files.",
   "keywords": [
     "aspax",
