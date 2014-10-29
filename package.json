@@ -1,6 +1,6 @@
 {
   "name": "aspax-less-handler",
-  "version": "0.8.6",
+  "version": "0.8.7",
   "description": "Plugin enabling ASPAX to handle LESS files.",
   "keywords": [
     "aspax",
@@ -9,8 +9,8 @@
     "compilation"
   ],
   "dependencies": {
-    "iced-coffee-script": "^1.7.1-g",
-    "less": "~1.7.5"
+    "iced-coffee-script": "^1.8.0-a",
+    "less": "^1.7.5"
   },
   "engines": {
     "node": ">=0.8.16"
