@@ -31,7 +31,9 @@ exports.findImports = findImports = (imports, file, callback) ->
 exports.compile = (file, flags, callback) ->
   await fs.readFile file, 'utf8', defer err, contents
   return callback err if err
-  less.render contents,
+  await less.render contents,
       filename: file
       paths: [ path.dirname(file) ]
-    , callback
+    , defer err, output
+  return callback err if err
+  callback null, output
