@@ -36,4 +36,4 @@ exports.compile = (file, flags, callback) ->
       paths: [ path.dirname(file) ]
     , defer err, output
   return callback err if err
-  callback null, output
+  callback null, output.css
