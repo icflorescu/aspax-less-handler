@@ -31,13 +31,7 @@ exports.findImports = findImports = (imports, file, callback) ->
 exports.compile = (file, flags, callback) ->
   await fs.readFile file, 'utf8', defer err, contents
   return callback err if err
-  parser = new less.Parser
-    filename: file
-    paths: [ path.dirname(file) ]
-  await parser.parse contents, defer err, lessTree
-  return callback err if err
-  try
-    contents = lessTree.toCSS()
-  catch err
-    return callback err
-  callback null, contents
+  less.render contents,
+      filename: file
+      paths: [ path.dirname(file) ]
+    , callback
