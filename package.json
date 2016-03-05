@@ -1,6 +1,6 @@
 {
   "name": "aspax-less-handler",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Plugin enabling ASPAX to handle LESS files.",
   "keywords": [
     "aspax",
@@ -18,7 +18,7 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/icflorescu/aspax-less-handler.git"
-    },
+  },
   "bugs": {
     "url": "https://github.com/icflorescu/aspax-less-handler/issues"
   },
@@ -27,9 +27,11 @@
     "email": "ionut.florescu@gmail.com",
     "url": "https://coderwall.com/icflorescu"
   },
-  "contributors": [{
-    "name": "Ionut-Cristian Florescu",
-    "email": "ionut.florescu@gmail.com"
-  }],
+  "contributors": [
+    {
+      "name": "Ionut-Cristian Florescu",
+      "email": "ionut.florescu@gmail.com"
+    }
+  ],
   "license": "MIT"
 }
