@@ -10,7 +10,7 @@
   ],
   "dependencies": {
     "iced-coffee-script": "^108.0.9",
-    "less": "^2.6.0"
+    "less": "^2.6.1"
   },
   "engines": {
     "node": ">=0.8.16"
